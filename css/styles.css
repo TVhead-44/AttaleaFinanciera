@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Etiquetas */
+body {
+    background: rgb(0,64,0);
+    background: linear-gradient(90deg, rgba(0,64,0,1) 0%, rgba(0,222,0,1) 50%, rgba(255,255,255,1) 100%);
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    top: -1px;
+    height: 80px;
+    background-color: white;
+}
+    a {
+        position: relative;
+        top: 25px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    span button {
+        position: relative;
+        left: 100px;
+        border: dotted #004000 1px;
+        background-color: white;
+    }
+main {
+    display: flex;
+    flex-direction: column;
+}
+    section {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+    }
+        main section article button {
+            position: relative;
+            left: 150px;
+            font-weight: bolder;
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+            z-index: -1;
+            background-color: #00DE00;
+        }
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    background-color: white;
+}
+    ul {
+        position: relative;
+        list-style: none;
+        left: 200px;
+    }
+    li {
+        font-family: 'Times New Roman', Times, serif;
+    }
+h1 {
+    font-size: 30px;
+}
+/* header, main, footer, span, article {
+    border: solid black 1px;
+} */
+
+/* Clases */
+.small__block {
+    justify-content: center;
+    height: 50px;
+}
+.justify {
+    justify-content: space-between;
+}
+.forty {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.thirtythree {
+    width: 33%;
+}
+.twentyfive {
+    width: 25%;
+}
+.fifteen {
+    width: 15%;
+}
+.first {
+    order: 2;
+}
+.social {
+    height: 50px;
+    position: relative;
+    left: 200px;
+}
+.img {
+    height: 200px;
+}
+.nmbrs {
+    position: relative;
+    left: 140px;
+    width: 200px;
+    z-index: -2;
+}
+.center {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.news {
+    height: 150px;
+}
+.contact__page {
+    display: flex;
+    flex-direction: row;
+    height: 570px;
+}
+.contact__page span {
+    width: 50%;
+}
+.about__us {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.half {
+    width: 50%;
+    border: solid black 1px;   
+}
+.borde {
+    border: solid black 1px;  
+}
+.image {
+    height: 100px;
+}
+
+/* IDs */
+#logo {
+    height: 75px;
+    position: relative;
+    right: 150px;
+}
+#link {
+    position: relative;
+    left: 20px;
+}
+#login {
+    height: 75px;
+}
+#logo__two {
+    height: 100px;
+    position: relative;
+    top: 12px;
+}
+#exception {
+    position: relative;
+    top: 0;
+}
