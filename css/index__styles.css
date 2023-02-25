@@ -5,8 +5,38 @@
     box-sizing: border-box;
 }
 
-/* Etiquetas */
+/* Labels */
 body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+}
+section {
+    display: grid;
+}
+header, main, footer, section {
+    border: 1px solid black;
+}
+
+/* Mobile */
+@media screen and (min-width: 300px) {
+    /* Labels */
+    body {
+        background-color: #004000;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    /* Labels */
+    body {
+        background-color: #00DE00;
+    }
+}
+
+/* Etiquetas */
+/* body {
     background: rgb(0,64,0);
     background: linear-gradient(90deg, rgba(0,64,0,1) 0%, rgba(0,222,0,1) 50%, rgba(255,255,255,1) 100%);
 }
@@ -66,13 +96,13 @@ footer {
     }
 h1 {
     font-size: 30px;
-}
+} */
 /* header, main, footer, span, article {
     border: solid black 1px;
 } */
 
 /* Clases */
-.small__block {
+/* .small__block {
     justify-content: center;
     height: 50px;
 }
@@ -140,10 +170,10 @@ h1 {
 }
 .image {
     height: 100px;
-}
+} */
 
 /* IDs */
-#logo {
+/* #logo {
     height: 75px;
     position: relative;
     right: 150px;
@@ -163,4 +193,4 @@ h1 {
 #exception {
     position: relative;
     top: 0;
-}
+} */
