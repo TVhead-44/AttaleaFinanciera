@@ -18,23 +18,32 @@ main, header, footer {
 }
 header, footer {
     height: 15%;
+    background-color: white;
 }
 main {
     height: 120vh;
-    grid-template-rows: 35% 35% 30%;
 }
-header, main, footer, section, span {
+div {
+    align-self: center;
+}
+header, main, footer, section, span, div {
     border: 1px solid black;
 }
 
 /* Mobile */
 @media screen and (min-width: 300px) {
     /* Labels */
-    body {
-        background-color: white;
-    }
     header {
         grid-template-columns: repeat(3, auto);
+    }
+    main {
+        grid-template-rows: 35% 35% 30%;
+    }
+
+    /* Classes */
+    .top {
+        display: grid;
+        grid-template-rows: 70% 30%;
     }
 }
 
